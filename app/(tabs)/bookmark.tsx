@@ -1,0 +1,18 @@
+import { View, Text } from 'react-native'
+import React from 'react'
+import { SafeAreaView } from 'react-native-safe-area-context'
+import { Link } from 'expo-router'
+
+const bookmark = () => {
+  return (
+    <SafeAreaView>
+            <View>
+        <Link href='/(auth)/sign-in' className="  ">
+          Sign-In
+        </Link>
+      </View>
+    </SafeAreaView>
+  )
+}
+
+export default bookmark
